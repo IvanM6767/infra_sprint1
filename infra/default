@@ -1,6 +1,6 @@
 server {
 
-    server_name kitya.ddns.net;
+    server_name ivnm.ddns.net;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8000;
@@ -19,8 +19,8 @@ server {
 
 
     listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/kitya.ddns.net/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/kitya.ddns.net/privkey.pem; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/ivnm.ddns.net/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/ivnm.ddns.net/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
@@ -28,7 +28,7 @@ server {
 
  server {
 
-    server_name kittygrammyhost.myftp.biz;
+    server_name kitya.ddns.net;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8080;
@@ -50,15 +50,15 @@ server {
 
 
     listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/kittygrammyhost.myftp.biz/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/kittygrammyhost.myftp.biz/privkey.pem; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/kitya.ddns.net/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/kitya.ddns.net/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 }
 server {
 
-    server_name kitya.ddns.net;
+    server_name ivnm.ddns.net;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8000;
@@ -77,8 +77,8 @@ server {
 
 
     listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/kitya.ddns.net/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/kitya.ddns.net/privkey.pem; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/ivnm.ddns.net/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/ivnm.ddns.net/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
@@ -86,7 +86,7 @@ server {
 
  server {
 
-    server_name kittygrammyhost.myftp.biz;
+    server_name kitya.ddns.net;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8080;
@@ -108,8 +108,8 @@ server {
 
 
     listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/kittygrammyhost.myftp.biz/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/kittygrammyhost.myftp.biz/privkey.pem; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/kitya.ddns.net/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/kitya.ddns.net/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
