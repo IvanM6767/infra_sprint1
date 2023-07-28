@@ -1,0 +1,5 @@
+IP: IP 158.160.21.222;
+name_taski: https://***;
+name_kittygram: https://***;
+login: *;
+password: **;
