@@ -1,5 +1,5 @@
 IP: IP 158.160.21.222;
-name_taski: https://***;
-name_kittygram: https://***;
-login: *;
-password: **;
+name_taski: https://ivnm.ddns.net;
+name_kittygram: https://kitya.ddns.net;
+login: 123456;
+password: 123456;
